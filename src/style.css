@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+/* Section products */
+.slide-item img {
+    width: 600px;
+    height: auto;
+}
+
+.open-slide {
+    display: flex;
+}
+
+.hid {
+    display: none;
+}
+
+
+
+/* Responsive */
+@media (min-width: 320px) {
+
+    /* Slider1 Section seven ingredients */
+    .slider {
+        max-width: 120%;
+        align-items: start;
+    }
+
+    .slider-container .slider div {
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Section products */
+    .control {
+        width: 100%;
+        margin: auto 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        bottom: 22%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* Section products */
+    .control {
+        width: 100%;
+        bottom: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* SLider1 Section seven ingredients */
+    .slider {
+        width: 50%;
+    }
+
+    /* Section products */
+    .control {
+        width: 41.5%;
+        margin: auto 0;
+        padding-left: 0;
+        padding-right: 0;
+        top: 0%;
+        right: 0;
+        /* transform: translate(148.3%, 0); */
+    }
+}
+
+/* @media (min-width: 1280px) {} */
+
+/* @media (min-width: 1536px) {} */
