@@ -2,4 +2,4 @@
 
 This is my new exploration website that sells furniture for home decoration.
 
-Demo : [Furniture Space - Marketplace](https://furniture-space.netlify.app/)
+Demo : [MyCookie - Indulge in the Delicious World of Cookies](https://my-cookie.netlify.app/)
