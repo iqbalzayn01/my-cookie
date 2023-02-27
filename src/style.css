@@ -22,20 +22,21 @@
 }
 
 
-/* Section testimonials */
-.cards {
-    width: 180%;
+/* Section cookie party */
+.title-party {
+    background: rgba(255, 255, 255, 0.005);
+    backdrop-filter: blur(12.5px);
 }
 
 
 /* Section newsletter */
 .text-newsletter {
-    width: 450px;
+    /* max-width: 450px; */
     height: auto;
 }
 
 .input-email input {
-    width: 540px;
+    /* width: 540px; */
     height: auto;
 }
 
@@ -70,6 +71,11 @@
         padding-right: 5px;
         bottom: 22%;
     }
+
+    /* Section cookie party */
+    .title-party img {
+        height: 500px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -79,6 +85,7 @@
         width: 100%;
         bottom: 15%;
     }
+
 }
 
 @media (min-width: 1024px) {
@@ -98,6 +105,7 @@
         right: 0;
         /* transform: translate(148.3%, 0); */
     }
+
 }
 
 /* @media (min-width: 1280px) {} */
