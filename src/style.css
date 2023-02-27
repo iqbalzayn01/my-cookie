@@ -22,6 +22,31 @@
 }
 
 
+/* Section testimonials */
+.cards {
+    width: 180%;
+}
+
+
+/* Section newsletter */
+.text-newsletter {
+    width: 450px;
+    height: auto;
+}
+
+.input-email input {
+    width: 540px;
+    height: auto;
+}
+
+
+/* Footer */
+.social-media {
+    width: 290px;
+    height: auto;
+}
+
+
 
 /* Responsive */
 @media (min-width: 320px) {
